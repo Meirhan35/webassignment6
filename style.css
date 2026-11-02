@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #222222;
+}
+
+header, section {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  padding: 15px;
+  border: 1px solid #cccccc;
+}
+
+button {
+  margin: 5px 5px 5px 0;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+input {
+  padding: 6px;
+  margin: 5px 5px 5px 0;
+}
+
+.images img {
+  width: 300px;
+  height: 200px;
+  margin-right: 10px;
+}
+
+.panel-title {
+  cursor: pointer;
+  background-color: #eeeeee;
+  color: #222222;
+  padding: 8px;
+  margin: 5px 0 0 0;
+}
+
+.panel-body {
+  display: none;
+  padding: 8px;
+  border: 1px solid #cccccc;
+}
+
+#skillError {
+  color: red;
+}
+
+.skill span {
+  display: block;
+  margin-top: 10px;
+}
+
+.bar-bg {
+  width: 100%;
+  height: 20px;
+  background-color: #dddddd;
+}
+
+.bar {
+  width: 0;
+  height: 20px;
+  background-color: #3b82f6;
+}

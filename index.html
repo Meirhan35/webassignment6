@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meiirkhan Abilda - Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1 id="name">Meiirkhan Abilda</h1>
+  <p id="headline">Front-End Developer in Training</p>
+  <p class="intro">I am a student of group IT-2503 at Astana IT University. I am learning web technologies and building my first interactive pages with jQuery.</p>
+</header>
+
+<section id="profile">
+  <h2>Welcome to My Portfolio</h2>
+  <button id="changeHeadline">Change Headline</button>
+  <button id="resetHeadline">Reset Headline</button>
+  <button id="lightTheme">Light Theme</button>
+  <button id="darkTheme">Dark Theme</button>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p class="bio">I am a first-year IT student who enjoys solving problems with code and learning how websites work.</p>
+  <p id="status">Currently learning jQuery!</p>
+  <ul id="facts">
+    <li>I like playing football.</li>
+    <li>I enjoy listening to music while coding.</li>
+    <li>My goal is to become a full-stack developer.</li>
+  </ul>
+  <button id="hideBtn">Hide</button>
+  <button id="showBtn">Show</button>
+  <button id="toggleBtn">Toggle</button>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="images">
+    <img id="img1" src="images/barca.avif" alt="Project photo 1">
+    <img id="img2" src="images/satorugojo.webp" alt="Project photo 2">
+  </div>
+  <button id="fadeInBtn">Fade In</button>
+  <button id="fadeOutBtn">Fade Out</button>
+  <button id="fadeToggleBtn">Fade Toggle</button>
+</section>
+
+<section id="favorites">
+  <h2>My Favorites</h2>
+  <h3 class="panel-title">My Favorite Music</h3>
+  <div class="panel-body">Lo-fi and hip-hop are my favorite genres for coding.</div>
+  <h3 class="panel-title">My Favorite Movie</h3>
+  <div class="panel-body">Interstellar, because of its story and music.</div>
+  <h3 class="panel-title">My Favorite Subject</h3>
+  <div class="panel-body">Web technologies, because I can see results right away.</div>
+</section>
+
+<section id="skillsSection">
+  <h2>Technical Skills</h2>
+  <ul id="skills">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Git</li>
+  </ul>
+  <input type="text" id="skillInput" placeholder="Enter a skill">
+  <button id="addSkill">Add Skill</button>
+  <button id="prependSkill">Prepend Skill</button>
+  <button id="removeSkill">Remove Skill</button>
+  <p id="skillError"></p>
+
+  <div class="skill">
+    <span>HTML</span>
+    <div class="bar-bg"><div class="bar" data-level="90"></div></div>
+  </div>
+  <div class="skill">
+    <span>CSS</span>
+    <div class="bar-bg"><div class="bar" data-level="80"></div></div>
+  </div>
+  <div class="skill">
+    <span>JavaScript</span>
+    <div class="bar-bg"><div class="bar" data-level="65"></div></div>
+  </div>
+  <div class="skill">
+    <span>Git</span>
+    <div class="bar-bg"><div class="bar" data-level="50"></div></div>
+  </div>
+  <button id="animateSkills">Animate My Skills</button>
+</section>
+
+<section id="links">
+  <h2>Social Link</h2>
+  <p><a id="socialLink" href="https://github.com/Meirhan35" target="_blank">GitHub</a></p>
+  <button id="changeLink">Change Link</button>
+</section>
+
+<section id="formSection">
+  <h2>Contact Form</h2>
+  <form id="contactForm">
+    <input type="text" id="nameInput" placeholder="Name">
+    <input type="email" id="emailInput" placeholder="Email">
+  </form>
+  <p>Name: <span id="nameOutput"></span></p>
+  <p>Email: <span id="emailOutput"></span></p>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
